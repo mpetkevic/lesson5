@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #343e5c;
+}
+
+.header{
+    width: 100vw;
+    height: 90px;
+    border-bottom: 1px solid #f0f2f7;
+}
+
+.wrapper {
+    max-width: 1170px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.header__logo {
+    padding-top: 35px;
+    float: left;
+}
+
+.header__nav {
+    display: inline-block;
+    margin: 3px 140px;
+}
+
+.header__nav-li {
+    display: inline-block;
+    list-style-type: none;
+    font-size: 16px;
+    font-weight: bolder;
+    margin: 38px 15px;  
+}
+
+.user-info {
+    float: right;
+    text-transform: uppercase;
+    margin: 39px 0;
+}
+
+.user-info__count {
+    margin-right: 10px;
+    padding: 5px 10px;
+    background-color: #e3e8f0;
+    border-radius: 50%;
+}
+
+.user-info__sign-in {
+    padding: 5px 10px;
+    border: 2px solid #e3e8f0;
+    border-radius: 50px;
+}
+
+.sales {
+    width: 100vw;
+    height: 55px;
+    color: #b9bed1;
+    
+}
+
+.sales__nav {
+    display: inline-block;
+    text-transform: uppercase;
+    float: left;
+}
+
+.sales__nav-li {
+    display: inline-block;
+    list-style-type: none;
+    font-size: 12px;
+    font-weight: bolder;
+    margin: 20px 20px 20px 0;
+    
+}
+
+.sales__nav-li_a {
+    color: #b9bed1; 
+}
+
+.sales__nav-li_a:hover {
+    color: #343e5c; 
+}
+
+.last {
+    margin-left: 400px;
+}
+
+.search {
+    float: right;
+    width: 200px;
+    height: 55px;
+    margin-top: -9px;
+    border-left: 1px solid #f0f2f7;
+    border-right: 1px solid #f0f2f7;
+}
+
+.search__img {
+    float: left;
+    margin: 20px 0 20px 20px;
+}
+
+.search__text {
+    display: inline;
+    border: none;
+    margin: 22px 0 20px 20px;
+    outline-style: none;
+}
+
+.search__text::placeholder {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: bolder;
+    color: #b9bed1;
+}
+.main {
+    background-image: url(../img/iphone_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    
+}
+
+.content {
+    position: absolute;
+    width: 465px;
+    height: 300px;
+    top: 100px;
+    left: 100px;
+    color: white;
+}
+
+.content__h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.content__p {
+    margin-bottom: 50px;
+}
+.content__a {
+    padding: 17px 52px;
+    background-color: #2754eb;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-size: 11px;
+    color: white;
+}
